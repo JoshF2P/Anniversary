@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Años Juntos 💜</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background-icons" id="backgroundIcons"></div>
+    <div class="hearts" id="hearts"></div>
+    
+     <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <div class="header">
+        <h1>💗 Todo empieza con una fresita 💗</h1>
+        <p class="date">4 de Enero, 2024</p>
+    </div>
+
+    <div class="counter">
+        <h2>Llevamos juntos...</h2>
+        <div class="time-display" id="timeDisplay"></div>
+    </div>
+
+    <div class="year-selector">
+        <button class="year-btn active" onclick="showYear(2024)">2024</button>
+        <button class="year-btn" onclick="showYear(2025)">2025</button>
+        <button class="year-btn" onclick="showYear(2026)">2026</button>
+    </div>
+
+    <div id="yearSections"></div>
+
+    <div class="love-letter">
+        <h2>Lettre à mon coeur 💌</h2>
+        <textarea id="loveLetter" placeholder="Escribe aquí tu carta de amor especial..."></textarea>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
